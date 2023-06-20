@@ -1,0 +1,95 @@
+
+
+.registry-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(135deg, #53a0ff, #8c7ae6);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif,'Times New Roman', Times, serif;
+  color: #fff;
+}
+
+.registry-container h1 {
+  font-family:cursive;
+  font-size: 28px;
+  margin-bottom: 20px;
+
+}
+
+.registry-container form {
+  margin-bottom: 20px;
+}
+
+.registry-container label {
+  display: block;
+  margin: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.registry-container input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.registry-container input[type="submit"] {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #fff;
+  color: #53a0ff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.registry-container .error {
+  display: block;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.registry-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.registry-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registry-item span {
+  flex-grow: 1;
+  color: #333;
+}
+
+.registry-item button {
+  margin-left: 10px;
+  background-color: #8c7ae6;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.container1 {
+  max-width: 200px;
+  margin: 20px auto;
+  padding: 10px;
+  background: linear-gradient(135deg, #fff, #fff);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
